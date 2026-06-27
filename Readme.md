@@ -35,3 +35,22 @@ This project tackles three major engineering hurdles in enterprise AI:
 git clone [https://github.com/yourusername/vibe-engine.git](https://github.com/yourusername/vibe-engine.git)
 cd vibe-engine
 pip install streamlit pydantic openai
+
+**2. Set up your Groq API Key:
+```bash
+export GROQ_API_KEY="your_api_key_here"
+
+
+
+**3. Initialize the Mock Database:
+(Assuming you have a script named setup_db.py to create the initial tables and mock data)
+```bash
+python3 setup_db.py
+
+
+
+**4. Run the Streamlit UI:
+```bash
+streamlit run ui.py
+
+
